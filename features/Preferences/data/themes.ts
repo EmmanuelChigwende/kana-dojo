@@ -323,6 +323,12 @@ const baseThemeSets: BaseThemeGroup[] = [
     isLight: false,
     themes: [
       {
+        id: 'fuji-shadow',
+        backgroundColor: 'oklch(15.0% 0.015 250.0 / 1)',
+        mainColor: 'oklch(78.0% 0.035 230.0 / 1)',
+        secondaryColor: 'oklch(65.0% 0.105 300.0 / 1)'
+      },
+      {
         id: 'koi-pond',
         backgroundColor: 'oklch(20.0% 0.048 240.0 / 1)',
         mainColor: 'oklch(80.0% 0.175 55.0 / 1)',
